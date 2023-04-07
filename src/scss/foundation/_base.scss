@@ -1149,7 +1149,15 @@ a{
     }
   }
   .wrap-cards .card {
+    height: 261px;
+    width: 163px;
+}
+}
+
+@media screen and (max-width: 360px){
+  .wrap-cards .card {
     height: 195px;
     width: 138px;
-}
+  }
+  
 }
