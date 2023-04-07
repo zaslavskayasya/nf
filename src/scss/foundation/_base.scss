@@ -143,8 +143,8 @@ body {
 .mega-quote{
   // background-color: #f5f3f3;
   display: block;
-  height: 300px;
-  height: 386px;
+  // height: 300px;
+  // height: 386px;
   z-index: -1;
   position: relative;
   &:before{
@@ -583,6 +583,19 @@ a{
   .hero-block{
     overflow-x: hidden;
   }
+  .portrait-part{
+    margin-right: 86px;
+  }
+  .short-info{
+    margin-bottom: 102px;
+  }
+  .mega-quote p {
+    font-size: 22px;
+    line-height: 37px;
+  }
+  .mega-quote:before {
+     height: 340px; ;
+  }
 }
 
 
@@ -607,6 +620,10 @@ a{
   }
   .main-screen .back-block {
     width: 606px;
+  }
+  .header-content .menu {
+    display: flex;
+    width: 244px;
   }
 }
 
@@ -662,6 +679,10 @@ a{
 
 }
 
+.mobile-portrait {
+  display: none;
+}
+
 
 @media screen and (max-width: 1050px){
   .wrap-cards .card:not(:nth-child(4n)) {
@@ -672,6 +693,32 @@ a{
     margin-right: 20px;;
     margin-bottom: 20px;;
   }
+  .information-part{
+    width: 100%;
+  }
+  .portrait-part{
+    display: none;;
+  }
+  .mobile-portrait {
+    display: block;
+    border-radius: 30px;;
+    max-width: 500px;;
+    margin: 40px auto;
+    overflow: hidden;
+  }
+  .story-name{
+    font-size: 63px;
+    line-height: 54px;
+  }
+  .mega-quote {
+    padding-left: 64px;
+  }
+  .mega-quote:before {
+    height: 219px;
+    left: -34px;
+    top: -72px;
+    width: 967px;
+}
 }
 
 
@@ -775,6 +822,17 @@ a{
     margin-left: 0px;
     margin-right: 29px;
   }
+  .header-content .h3{
+    display: none;;
+  }
+  .header-content {
+    margin-bottom: 19px;
+    padding-top: 28px;
+}
+.centered-text {
+  margin: 0 auto 90px;
+  width: 87%;
+}
 }
 
 
@@ -805,7 +863,48 @@ a{
   .card .hero-info {
     padding: 9px;
   }
+  .header-content{
+    flex-direction: column;
+    .logos-part{
+      margin-bottom: 25px;
+    }
+    
+  }
+  .header-content .menu{
+    width: auto;
+  }
+  .mega-quote:before {
+    height: 290px;
+    width: 105%;
+  }
+  .story-name {
+    font-size: 53px;
+    line-height: 46px;
+    margin-bottom: 50px;
+  }
+  .hero-main {
+    margin-bottom: 48px;
+    padding-bottom: 50px;
+  }
+  .margin-block, .story-name {
+    margin-bottom: 64px;
+  }
+  .blue-quote {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .big-text {
+    font-size: 26px;
+    line-height: 39px;
+
+    padding-left: 55px;
+  }
+  .large-container{
+    padding-left: 15px;;
+  }
 }
+
+
 @media screen and (max-width: 600px){
   .container{
     max-width: 350px;;
@@ -836,6 +935,106 @@ a{
   }
   .project-idea {
     padding-bottom: 4px;
+  }
+  .header-content {
+    margin-bottom: 19px;
+    padding-top: 25px;
+  }
+  .header-content .logos-part {
+    margin-bottom: 33px;
+  }
+  .nafto {
+    margin-right: 66px;
+    img{
+      width: 148px;
+      max-width: 148px;
+    }
+  }
+  .header-content .logos-part {
+    justify-content: space-between;
+    width: 78%;
+  }
+  .header-content .menu a{
+    font-size: 16px;;
+  }
+  .person-name {
+    font-size: 33px;
+    line-height: 35px;
+    padding-left: 24px;;
+  }
+  .information-part {
+    padding-top: 34px;
+  }
+  .mobile-portrait{
+    margin: 28px auto;
+    img{
+      height: 287px;
+      object-fit: cover;
+      width: auto;
+    }
+  }
+  .person-work{
+
+  }
+  .short-info {
+    margin-bottom: 113px;
+  }
+  .person-work, .short-info{
+      padding-left: 23px;;
+      font-size: 15px;
+  }
+  .mega-quote {
+    padding-left: 38px;
+  }
+  .mega-quote p{
+    font-size: 15px;
+    line-height: 27px;
+    padding-right: 20px;
+  }
+  .mega-quote p:before {
+    height: 31px;
+    left: -17px;
+    top: -43px;
+    width: 39px;
+    background-size: contain;
+  }
+  .story-name {
+    font-size: 29px;
+    line-height: 35px;
+    padding-left: 29px;
+  }
+  .margin-block, .story-name {
+    margin-bottom: 18px;
+  }
+  .hero-block .normal_text {
+    line-height: 28px;
+    font-size: 15px;
+  }
+  .h2_2 {
+    font-size: 25px;
+    margin-bottom: 22px;
+  }
+  .centered-text {
+    margin: 0 auto 60px;
+  }
+  .photo-block{
+    margin: 0 auto 45px;
+    img{
+      height: 288px;;
+      width: auto;
+      object-fit: cover;
+    }
+  }
+  .blue-quote {
+    font-size: 16px;
+    line-height: 29px;
+    padding-left: 25px;
+    width: 83%;
+  }
+  .big-text {
+    font-size: 15px;
+    line-height: 25px;
+    padding-left: 20px;
   }
 }
 
