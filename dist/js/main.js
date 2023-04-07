@@ -1,0 +1,2 @@
+console.log("Loaded main.js");const anchors=document.querySelectorAll('a[href*="#"]');for(let e of anchors)e.addEventListener("click",(function(t){t.preventDefault();const o=e.getAttribute("href").substr(1);document.getElementById(o).scrollIntoView({behavior:"smooth",block:"start"})}));
+//# sourceMappingURL=main.js.map
