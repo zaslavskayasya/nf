@@ -174,7 +174,7 @@ a{
   display: grid; 
   grid-template-columns: 1fr 1fr 1fr 1fr; 
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
-  gap: 100px 45px; 
+  gap: 96px 45px; 
   grid-template-areas: 
     "part-1 part-1 part-2 part-2"
     "part-1 part-1 part-2 part-2"
@@ -188,10 +188,11 @@ a{
   background-image: url("../img/illustrations/women.png");
   background-position: 25%;
   background-repeat: no-repeat;
+  height: 105%;
 }
 .part-2 {
    grid-area: part-2;
-   padding-left: 60px;;
+   padding-left: 65px;;
  }
 .part-3 { 
   
@@ -203,7 +204,9 @@ a{
   background-size: cover;
   background-position: 75%;
   background-repeat: no-repeat;
-  margin-left: 60px;;
+  margin-left: 65px;;
+  margin-top: -35px;
+  height: 112%;
 }
 
 .part-img{
@@ -241,6 +244,7 @@ a{
   height: 432px;
   display: block;
   position: relative;  
+  background-color: #e7e7e7;
   
   &:hover{
     img{
@@ -464,11 +468,11 @@ a{
     gap: 0px;;
     flex-direction: column;
     .part{
-      margin-bottom: 42px;
+      margin-bottom: 34px;
     }
   }
   .part-1{
-    min-height: 350px;
+    min-height: 450px;
     width: 100%;
     background-size: cover;
     order: 1;
@@ -558,7 +562,7 @@ a{
   }
   .wrap-cards .card{
     width: 175px;
-    height: 232px;
+    height: 277px;
   }
   .card img {
     // display: block;
@@ -632,26 +636,28 @@ a{
   }
 
   .project-idea{
-    padding-top: 30px;
+    padding-top: 61px;
   }
   .h2 {
     font-size: 30px;
     line-height: 32px;
     text-align: center;
     
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
    .section-subname {
     font-size: 21px;
     text-align: center;
     max-width: 88%;
-    margin: 0 auto 45px;
+    margin: 0 auto 35px;
   }
   .part-1 {
-    min-height: 182px;
+    min-height: 321px;
+    height: 321px;
   }
   .part-4{
-    min-height: 180px;
+    min-height: 379px;
+    height: 379px;
   }
   .text-part{
     padding-left: 28px;
