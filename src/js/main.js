@@ -8,7 +8,17 @@ $(document).ready(function(){
 	$('.navigation-link').click(function () { // 1
 		elementClick = $(this).attr('href');
 		destination = $(elementClick).offset().top;
-		$('body,html').animate({scrollTop: destination }, 1000);
+
+		if (navigator.userAgent.includes('Safari')) {
+			// у пользователя запущен Safari
+			// сделаем что-то полезное
+			$('body,html').animate({scrollTop: destination }, 500); 
+		  } else{
+
+			  $('body,html').animate({scrollTop: destination }, 1000);
+		  }
+
+
 	});
 });
 
