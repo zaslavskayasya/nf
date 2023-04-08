@@ -5,20 +5,18 @@ console.log(`Loaded main.js`);
 
 
 $(document).ready(function(){
-	$('.navigation-link').click(function () { // 1
+	$('.skroll-link').click(function () { // 1
 		elementClick = $(this).attr('href');
-		destination = $(elementClick).offset().top;
+		destination = $(elementClick).offset().top - 20;
 
 		if (navigator.userAgent.includes('Safari')) {
 			// у пользователя запущен Safari
 			// сделаем что-то полезное
-			$('body,html').animate({scrollTop: destination }, 500); 
+			$('body,html').animate({scrollTop: destination }, 300); 
 		  } else{
 
-			  $('body,html').animate({scrollTop: destination }, 1000);
+			  $('body,html').animate({scrollTop: destination }, 1200);
 		  }
-
-
 	});
 });
 
