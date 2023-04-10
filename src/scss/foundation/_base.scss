@@ -29,6 +29,15 @@ body {
   margin-bottom: 20px;
 
 }
+
+.header2 {
+  .nafto{
+    img{
+      width: 215px;
+    }
+  }
+}
+
 .h1{
   font-family: 'podkova';
   font-style: normal;
@@ -342,7 +351,7 @@ a{
       &.logo-nafto{        
         margin-right: 75px ;
         img{
-          width: 200px;
+          width: 240px;
         }
       }
     }
@@ -843,11 +852,14 @@ a{
   .header-content {
     margin-bottom: 19px;
     padding-top: 28px;
-}
-.centered-text {
-  margin: 0 auto 90px;
-  width: 87%;
-}
+  }
+  .centered-text {
+    margin: 0 auto 90px;
+    width: 87%;
+  }
+  .main-screen .logo-frng img {
+    max-width: 70px;
+  }
 }
 
 

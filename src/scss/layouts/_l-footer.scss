@@ -15,7 +15,7 @@
     }
     .nafto{
         img {
-            max-width: 200px;;
+           width: 200px;;
         }
     }
     .menu{
@@ -140,4 +140,16 @@
     .socials svg{
         max-width: 30px;;
     }
+
+        .frng-footer {
+           width: 64px;
+           min-width: 64px;
+           display: block;
+           img{
+            width: 64px;
+           }
+        }
+        .nafto {
+            margin-right: 26px;
+        }
 }
