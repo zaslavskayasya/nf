@@ -328,14 +328,22 @@ a{
     justify-content: space-between;
     
   }
+  .logo-frng{
+    img{
+
+      max-width:90px;;
+    }
+  }
   .logo-part{
     display: flex;
     align-items: baseline;
     a{
       display: block;
-      &.logo-nafto{
-
+      &.logo-nafto{        
         margin-right: 75px ;
+        img{
+          width: 200px;
+        }
       }
     }
   }
@@ -1063,7 +1071,7 @@ a{
       margin-right: 15px;;
     }
   }
-  .logo-nafto svg {
+  .logo-nafto img {
     width: 160px;
   }
   .logo-frng {
