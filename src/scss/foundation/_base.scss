@@ -306,10 +306,13 @@ a{
   // justify-content: space-between;
   background-color: h.$accent-color;
   color: #fff;
+  max-height: 600px ;
   .illustration-part{
    width: 1041px;
+   overflow: hidden;
    img{
-    width: 1041px;
+    max-width: 1041px;
+    object-fit: cover;
    }
 
   }
@@ -367,8 +370,8 @@ a{
 
 
 .project-idea{
-  padding-top: 140px;;
-  padding-bottom: 80px;
+  padding-top: 70px;;
+  padding-bottom: 0px;
 }
 
 .h2{
@@ -391,7 +394,7 @@ a{
 }
 
 .section-subname{
-  margin-bottom: 70px;
+  margin-bottom: 50px;
   
 }
 .normal_text{
@@ -418,15 +421,15 @@ a{
 .wrap-parts {
   display: grid; 
   grid-template-columns: 1fr 1fr 1fr 1fr; 
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
   gap: 96px 45px; 
   grid-template-areas: 
     "part-1 part-1 part-2 part-2"
     "part-1 part-1 part-2 part-2"
     "part-1 part-1 part-4 part-4"
     "part-3 part-3 part-4 part-4"
-    "part-3 part-3 part-4 part-4"
-    "part-3 part-3 part-5 part-5"; 
+    "part-3 part-3 part-4 part-4";
+
 }
 .part-1 { 
   grid-area: part-1; 
@@ -475,7 +478,7 @@ a{
 
 
 .story-section{
-  padding-top: 50px;
+  padding-top: 130px;
   padding-bottom: 80px;;;
   .h2{
     margin-bottom: 85px;
