@@ -734,6 +734,10 @@ a{
     display: block;
     width: 100%;
   }
+  .main-screen {
+      max-height: initial;
+  }
+
   .main-screen .back-block{
     width: 100%;
     padding: 20px 0px;
