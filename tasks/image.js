@@ -12,14 +12,14 @@ const imgTask = () => {
     .pipe(
       imagemin([
         pngquant({
-          quality: [0.7, 0.85]
+          quality: [0.9, 0.95]
         }),
-        imagemin.mozjpeg({ quality: 80, progressive: true }),
+        imagemin.mozjpeg({ quality: 100, progressive: true }),
         imagemin.optipng(),
         imagemin.svgo({
           plugins: [{ removeViewBox: false }, { cleanupIDs: false }]
         }),
-        imagemin.gifsicle({ optimizationLevel: 3 })
+        imagemin.gifsicle({ optimizationLevel: 1 })
       ])
     )
     .pipe(dest(path.dist.img))
