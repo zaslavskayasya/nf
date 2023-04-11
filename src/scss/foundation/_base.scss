@@ -95,10 +95,10 @@ body {
         }
     }
     a {
-        font-family: 'circeregular';
+      font-family: 'circeregular';
         font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
+        font-weight: 400;
+        font-size: 20px;
         line-height: 30px;
         text-decoration-line: underline;  
         color: #1A1919;
@@ -135,7 +135,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
-  line-height: 36px;  
+  line-height: 47px;  
   color: #1A1919;
   margin-bottom: 29px;
 }
@@ -316,7 +316,7 @@ a{
 .white-links{
   font-family: 'circelight';
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 20px;
   line-height: 30px;
   /* identical to box height, or 176% */
@@ -339,7 +339,9 @@ a{
   }
 }
 
-
+.logo-nafto{
+  cursor: default;
+}
 .main-screen {
   display: flex;
   // justify-content: space-between;
