@@ -6,29 +6,37 @@ html(lang="uk")
 
   head
     style.
-      @font-face{
-        font-family: "montserrat";
-        src: url(./fonts/mon/Montserrat-SemiBold.woff2);
-        font-display: swap;
-      }      
-      @font-face{
-        font-family: "montserratregular";
-        src: url(./fonts/mon/Montserrat-Regular.woff2);
-        font-display: swap;
-      } 
-      @font-face{
-        font-family: "montserratmedium";
-        src: url(./fonts/mon/Montserrat-Medium.woff2);
-        font-display: swap;
+      @font-face {
+        font-family: 'circebold';
+        src: url('./fonts/Circe-Bold.woff') format('woff');
+        font-style: normal;
+      }
+      @font-face {
+          font-family: 'circeextra_bold';
+          src: url('./fonts/Circe-ExtraBold.woff') format('woff');
 
+          font-style: normal;
+      }
+      @font-face {
+          font-family: 'circeextra_light';
+          src: url('./fonts/CRC25.woff') format('woff');
+
+          font-style: normal;
+      }
+      @font-face {
+          font-family: 'circelight';
+          src: url('./fonts/CRC35.woff') format('woff');
+
+          font-style: normal;
+      }
+      @font-face {
+          font-family: 'circeregular';
+          src: url('./fonts/CRC55.woff') format('woff');
+
+          font-style: normal;
       }
 
-      @font-face{
-        font-family: "podkova";
-        src: url(./fonts/podkova/Podkova-SemiBold.woff2);
-        font-display: swap;
-
-      }
+      
     include ../config/_meta
     include ../config/_favicon
     include ../config/_stylesheet
