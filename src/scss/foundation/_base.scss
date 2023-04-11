@@ -23,10 +23,10 @@ body {
   font-family: 'circeregular';
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 32px;
   line-height: 30px;
   color: #FFFFFE;
-  margin-bottom: 20px;
+  margin-bottom: 32px;
 
 }
 
@@ -55,14 +55,14 @@ body {
   font-family: 'circebold';
   font-style: normal;
   font-weight: 600;
-  font-size: 80px;
-  line-height: 80px;
+  font-size: 86px;
+  line-height: 87px;
   color: #FFFFFE;
 }
 
 .large-container{
   max-width: 1784px;
-  padding: 0 15px 0px 44px;
+  padding: 0 15px 30px 44px;
   margin: 0 auto;
 }
 
@@ -137,25 +137,25 @@ body {
   font-size: 50px;
   line-height: 36px;  
   color: #1A1919;
-  margin-bottom: 21px;
+  margin-bottom: 29px;
 }
 
 .person-work{
   font-family: 'circeregular';
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
-  margin-bottom: 26px;
+  font-size: 20px;
+  margin-bottom: 19px;
   color: #666666;
-  line-height: 24px;
+  line-height: 27px;
 }
 
 .short-info{
   font-family: 'circeregular';
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
-  line-height: 24px;  
+  font-size: 20px;
+  line-height: 27px;  
   color: #666666;
   margin-bottom: 155px;;
 
@@ -176,7 +176,7 @@ body {
     width: 1053px;
     height: 340px;
     position: absolute;
-    left: -402px;
+    left: -318px;
     top: -63px;
     background: #FAFAFA;
   }
@@ -187,6 +187,7 @@ body {
     line-height: 40px;
     color: #1A1919;
     padding-left: 10px;
+    padding-top: 12px;
     padding-right: 50px;;
     position: relative;
     &:before{
@@ -218,8 +219,9 @@ body {
   padding-bottom: 50px;
   margin-bottom: 50px;
   .normal_text{
-    margin-bottom: 25px;;
-    line-height: 28px;;
+    margin-bottom: 29px;;
+    line-height: 27px;;
+    font-size: 20px;
     font-family: 'circeregular';
     span{ 
       font-family: 'circeregular';
@@ -233,7 +235,7 @@ body {
   font-family: 'circebold';
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 25px;
   line-height: 28px;  
   color: #1A1919;
   margin-bottom: 35px;
@@ -253,6 +255,7 @@ body {
   max-width: 921px;
   // margin-bottom: 95px;;
   margin-bottom: 65px;;
+  padding-left: 85px;
 }
 .margin-block{
   margin-bottom: 65px;;
@@ -283,7 +286,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
-  line-height: 32px;
+  line-height: 161%;
   color: #008EC1;
   span{ 
     font-family: 'circeregular';
@@ -298,27 +301,42 @@ body {
   font-size: 25px;
   line-height: 160%;
   color: #1A1919;
-  max-width: 900px;;
+  max-width: 995px;;
   padding-left: 90px;;
 }
 
 .blue-quote-block{
   max-width: 1010px;
-  margin: 0 auto 30px;
+  margin: 0 auto 68px;
 }
 
 a{
 
 }
 .white-links{
-  font-family: 'circeregular';
+  font-family: 'circelight';
   font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
+  font-weight: 300;
+  font-size: 20px;
   line-height: 30px;
   /* identical to box height, or 176% */
-  text-decoration-line: underline;
+  text-decoration-line: none;;
   color: #FFFFFF;
+  position: relative;
+  &:after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+  }
+  &:hover{
+    &:after {
+      background-color: #000;
+    }
+  }
 }
 
 
@@ -343,13 +361,13 @@ a{
     width: 730px;
     padding-left: 32px;
     padding-top: 47px;
-    padding-bottom: 106px;
+    padding-bottom: 76px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
   }
   .logo-frng{
+    margin-top: 3px;
     img{
       max-width:92px;;
     }
@@ -361,7 +379,7 @@ a{
     a{
       display: block;
       &.logo-nafto{        
-        margin-right: 35px ;
+        margin-right: 34px ;
         img{
           width: 275px;
         }
@@ -376,7 +394,7 @@ a{
 }
 
 .navigation{
-  padding-top: 10px;;
+  padding-top: 5px;;
   padding-left: 0px;;
   &-ul{
     display: flex;
@@ -417,13 +435,13 @@ a{
   font-family: 'circeregular';
   font-style: normal;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 20px;
   line-height: 27px;
   color: h.$primary-color;
 }
 
 .section-subname{
-  margin-bottom: 50px;
+  margin-bottom: 74px;
   
 }
 .normal_text{
@@ -469,7 +487,7 @@ a{
 }
 .part-2 {
    grid-area: part-2;
-   padding-left: 65px;;
+   padding-left: 74px;;
  }
 .part-3 { 
   
@@ -499,7 +517,7 @@ a{
   font-family: 'circeregular';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 26px;
   line-height: 22px;
   color: h.$accent-color;
   margin-bottom: 30px;;

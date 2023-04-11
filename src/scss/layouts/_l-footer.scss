@@ -18,6 +18,9 @@
            width: 218px;;
         }
     }
+    .frng-footer{
+        margin-top: -3px;;
+    }
     .menu{
         display: flex;
         li {
@@ -27,17 +30,29 @@
             }
         }
         a {
-            font-family: 'circeregular';
+            font-family: 'circelight';
             font-style: normal;
-            font-weight: 400;
+            font-weight: 200;
             font-size: 20px;
             line-height: 30px;
-            text-decoration-line: underline;
-
+            text-decoration-line: none;
             color: #1A1919;
             transition: all ease 0.3s;;
+            position: relative;
             &:hover {
                 color: #008ec1;
+                &:after{
+                    background-color: #008ec1;
+                }
+            }
+            &:after{
+                content: "";
+                display: block;
+                width: 100%;
+                height: 1px;
+                background-color: #000;
+                position: absolute;
+                bottom: 3px;
             }
         }
     }
